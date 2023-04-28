@@ -1,1 +1,1 @@
-"# cba-it-resource" 
+# cba-it-resource
