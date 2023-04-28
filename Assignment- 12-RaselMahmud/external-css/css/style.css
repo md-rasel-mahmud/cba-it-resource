@@ -1,0 +1,63 @@
+/* Body background and content style */
+body{
+    background-color: #ADEFD1FF;
+    color: #00203FFF ;
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Container margin padding  */
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+/* Common flexbox css */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Height for every section */
+section{
+    min-height: 80vh;
+}
+
+/* ===================================== Header area css ==================================== */
+header{
+    background-color: #fff;
+}
+nav{
+    padding: 10px 0;
+}
+header nav img{
+    height: 60px;
+}
+.menu a{
+    /* background-color: #ADEFD1FF; */
+    text-decoration: none;
+    color: #00203FFF;
+    padding: 5px 20px;
+}
+
+
+/* Banner area  */
+.logo{
+    padding: 100px 50px;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.content{
+    width: 40%;
+}
+.content h1{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+td{
+    display: table-column;
+    /* column-gap: 100px; */
+}

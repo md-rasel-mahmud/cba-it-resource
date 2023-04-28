@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EDF0F5;
+}
+nav{
+    overflow: hidden;
+    background-color: #3D5B9B;
+    color: #fff;
+}
+nav h1{
+    float: left;
+    margin-left: 5%;
+}
+nav form{
+    float: right;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+nav a{
+    float: right;
+    color: #89A9DA;
+    margin-right: 20%;
+    text-decoration: none;
+}
+
+header{
+
+}
+header .content{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+header .content h1{
+    color: #232B2A;
+}
+header .content img{
+    float: left;
+}
+header .content p{
+    overflow: hidden;
+    margin-top: 20px;
+    color: gray;
+}
+header .content p b{
+    color: #232B2A;
+}
+header .sign-up-form{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 4%;
+
+}
+header .sign-up-form .full-width{
+    background-color: #fff;
+    padding: 10px;
+    margin: 2px 0;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    width: 80%;
+}
+.half-width{
+    background-color: #fff;
+    padding: 10px;
+    margin: 2px 0;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    width: 37% !important;
+}
+.btn{
+    background-color: #5B9746;
+    color: #fff;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+.birthda-label{
+    color: #3B4557;
+    font-size: 15px;
+}

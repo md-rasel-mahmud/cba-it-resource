@@ -1,0 +1,26 @@
+body{
+	margin:0;
+}
+.flag{
+	width: 50%;
+	height: 50vh;
+}
+.yellow{
+	height: 33.333333333333336%;
+	width: 100%;
+	background: yellow;
+}
+.white{
+	height: 33.333333333333336%;
+	width: 100%;
+	padding: 0 40%;
+}
+img{
+	margin-top: 3%;
+	height: 70px;
+}
+.green{
+	height: 33.333333333333336%;
+	width: 100%;
+	background: green;
+}

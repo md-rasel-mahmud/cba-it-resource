@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ============ Header area ============ */
+.header-area{
+    background-color: green;
+    height: 100px;
+}
+.header-area h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+/* ============ Header area end============ */
+
+/* ============ Content area ============ */
+.content-area{
+    height: 70vh;
+    width: 100%;
+    background-color: #fff;
+}
+.content-area{
+    background-color: #fff;
+}
+
+/* left-sidebar */
+.content-area .left-sidebar{
+    width: 20%;
+    height: 70vh;
+    background-color: red;
+    float: left;
+    overflow: hidden;
+}
+.content-area .left-sidebar h2{
+    padding-top: 30vh;
+    color: #fff;
+    text-align: center;
+}
+
+/* Main content  */
+.content-area .main-content{
+    width: 60%;
+    height: 70vh;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.content-area .main-content h1{
+    padding-top: 20px;
+}
+.content-area .main-content img{
+    margin-top: 50px;
+}
+
+/* Right sidebar  */
+.content-area .right-sidebar{
+    width: 20%;
+    height: 70vh;
+    background-color: red;
+    float: left;
+    overflow: hidden;
+}
+.content-area .right-sidebar h2{
+    padding-top: 30vh;
+    color: #fff;
+    text-align: center;
+}
+/* ============ Content area end============ */
+
+
+/* ============ Footer area ============ */
+.footer-area{
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+}
+.footer-area h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+/* ============ Footer area end ============ */

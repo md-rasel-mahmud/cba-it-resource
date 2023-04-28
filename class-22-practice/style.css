@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    transition: all 600ms ease;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --primary-color: #ff9b51;
+    --secondary-color: #333333;
+    --secondary-color: #86878b;       
+}
+
+
+/* Header area  */
+header{
+    background: url('img/header-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+header .overlay  nav {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5rem;
+}
+.overlay nav .nav-link a{
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    margin: 0 auto;
+}
+.header-content .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header-content h1{
+    color: #fff;
+    font-weight: 300;
+}
+.short-border{
+    width: 20%;
+    height: 5px;
+    background-color: #fff;
+}
+.header-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+}
+
+
+.header-content form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+form .btn{
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+}

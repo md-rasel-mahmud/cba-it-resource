@@ -1,0 +1,59 @@
+font-family: GothamRouded;
+
+
+Header section =>
+===============================================================
+your life , a photo
+===============================================================
+print your life in a simple photo
+===============================================================
+
+section => 2
+===============================================================
+Rappresent your life with a 
+simple photo
+---------------------------------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore 
+magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi 
+ut aliquip ex ea commodo consequat.
+===============================================================
+
+section => 3
+===============================================================
+DESIGN
+---------------------------------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore 
+magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi 
+ut aliquip ex ea commodo consequat.
+===============================================================
+
+section => 4
+===============================================================
+our community
+---------------------------------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+===============================================================
+
+section => 5
+===============================================================
+subscribe to us community
+---------------------------------------------------------------
+your email
+===============================================================
+
+section => 6
+===============================================================
+Download it
+---------------------------------------------------------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+===============================================================
+
+Footer
+===============================================================
+credits | privacy | our teams 
+Copyright by phototime - all right reserved
+===============================================================

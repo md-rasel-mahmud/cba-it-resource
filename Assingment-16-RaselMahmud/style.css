@@ -1,0 +1,466 @@
+body{
+    margin: 0;
+}
+
+/* ============This is header section start============ */
+
+.section-1{
+    height: 45vh;
+    width: 100%;
+    background-color: #000;
+}
+
+/* First column of header  */
+.first-column-of-section-1{
+    height: 100%;
+    width: 33.333333333333336%;
+    position: relative;
+    float: left;
+}
+.black-1{
+    background-color: black;
+    height: 25vh;
+    width: 33.333333333333336%;
+    position: relative;
+    float: left;    
+}
+
+.gray-1{
+    width: 70%;
+    height: 15vh;
+    background-color: gray;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.gray-2{
+    width: 70%;
+    height: 15vh;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.yellow-1{
+    width: 33.333333333333336%;
+    height: 25vh;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.gray-3{
+    width: 15%;
+    height: 15vh;
+    margin-top: 10vh;
+    margin-left: 5px;
+    background-color: gray;
+}
+
+.black-2{
+    background-color: black;
+    height: 25vh;
+    width: 33.333333333333336%;
+    overflow: hidden;
+}
+.yellow-2{
+    background-color: yellow;
+    height: 20vh;
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.red-1{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+}
+.deep-green{
+    height: 25vh;
+    width: 45%;
+    background-color: #22B14C;
+    float: left;
+}
+.black-3{
+    height: 25vh;
+    width: 10%;
+    background-color: black; 
+    overflow: hidden;
+    float: left;
+}
+.pink{
+    height: 28vh;
+    width: 45%;
+    background-color: #FFAEC9; 
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+}
+
+/* Secound column of header  */
+.secound-column-of-section-1{
+    height: 100%;
+    width: 33.333333333333336%;
+    position: relative;
+    background-color: #FF7F27;
+    overflow: hidden;
+    float: left;
+}
+.black-4{
+    height: 25vh;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px 0 0 10px;
+    float: left;
+}
+.white{
+    overflow: hidden;
+    position: absolute;
+    height: 35vh;
+    width: 35%;
+    border-radius: 20px;
+    background-color: white;
+    bottom: 10px;
+    left: 10%;
+}
+.mp3{
+    height: 43vh;
+    width: 40%;
+    border-radius: 20px;
+    border: 5px solid black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.yellow-cercle-border{
+    height: 20vh;
+    width: 80%;
+    border-radius: 50%;
+    border: 5px solid #FFF600;
+    position: relative;
+    margin: 15px 0 0 15px;
+}
+.white-2{
+    height: 10vh;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    top: 5vh;
+    left: 20%;
+}
+.blue-white-yellow-border{
+    border: 5px solid black;
+    width: 85%;
+    height: 35%;
+    margin-left: 4px;
+    padding: 5px;
+    position: relative;
+}
+.blue-1{
+    height: 30px;
+    width: 95px;
+    background-color: #7092BE;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.blue-2{
+    height: 50px;
+    width: 50px;
+    background-color: #7092BE;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.white-3{
+    height: 65px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.yellow-3{
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: #FFF200;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+/* Third column of header */
+.third-column-of-section-1{
+    height: 100%;
+    width: 33.333333333333336%;
+    position: relative;
+    background-color: #ED1C24;
+    overflow: hidden;
+}
+.blue-3{
+    position: absolute;
+    background-color:  #3F48CC;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+.black-5{
+    position: absolute;
+    background-color:  #000;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    right: 0;
+}
+.red-2{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #ED1C24;
+}
+.red-3{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #ED1C24;
+    top: 30%;
+}
+.red-4{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #ED1C24;
+    top: 60%;
+}
+.red-5{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #ED1C24;
+    top: 90%;
+}
+
+/* ============This is footer section start============ */
+
+.sextion-2{
+    height: 55vh;
+    width: 100%;
+}
+
+/* First column of footer  */
+.first-column-of-section-2{
+    height: 100%;
+    width: 20%;
+    position: relative;
+    float: left;
+    background-color: #FFF200;
+}
+.gray-4{
+    height: 5px;
+    width: 80%;
+    background-color: gray;
+    margin: 13% 0 0 5%;
+}
+.black-6{
+    height: 55%;
+    width: 95%;
+    background-color: black;
+    margin: 5% 0 0 5%;
+}
+.gray-5{
+    height: 5px;
+    width: 80%;
+    background-color: gray;
+    margin: 10% 0 0 5%;
+}
+
+
+/* Secound column of footer  */
+.secound-column-of-section-2{
+    height: 100%;
+    width: 35%;
+    position: relative;
+    float: left;
+    background-color: #ED1C24;
+    overflow: hidden;
+}
+.white-4{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+.yellow-4{
+    width: 100%;
+    height: 100%;
+    background-color: #FFF200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.cercle-violet{
+    width: 47%;
+    height: 60%;
+    overflow: hidden;
+    background-color: #A349A4;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: inherit;
+}
+.violet{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #A349A4;
+    position: inherit;
+    margin: 40px 50px 0 20px;
+    float: left;
+}
+.gray-6{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.black-7{
+    width: 40%;
+    height: 38%;
+    background-color: #000;
+    overflow: hidden;
+    position: inherit;
+}
+
+/* Third column of footer  */
+.third-column-of-section-2{
+    height: 100%;
+    width: 45%;
+    position: relative;
+    background-color: #B5E61D;
+    overflow: hidden;
+}
+.gray-7{
+    width: 67%;
+    height: 30px;
+    background-color: gray;
+    float: left;
+}
+.black-8{
+    height: 30px;
+    width: 33%;
+    background-color: #000;
+    overflow: hidden;
+}
+.white-5{
+    height: 40%;
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px 0 0 20px;
+    float: left;
+}
+.green{
+    height: 25%;
+    width: 30%;
+    background-color: #22B14C;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 5px 0 0;
+    float: left;
+}
+.red-6{
+    height: 60px;
+    width: 60px;
+    background-color: #ED1C24;
+    margin: 10% 0 0 30%;
+    border-radius: 50%;
+}
+.red-7{
+    height: 50%;
+    width: 35%;
+    background-color: #ED1C24;
+    border-radius: 10px;
+    margin-top: 5px;
+    position: absolute;
+    right: 5px;
+}
+.yellow-5{
+    height: 35%;
+    width: 25%;
+    background-color: #FFC90E;
+    border-radius: 10px;
+    margin: 15px 0 0 10px;
+    position: absolute;
+    bottom: 0;
+}
+.red-white-chileds{
+    height: 50%;
+    width: 30%; 
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    
+}
+.red-8{
+    height: 60%;
+    width: 70%;
+    background-color: #ED1C24;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.white-6{
+    height: 36%;
+    width: 90%;
+    background-color: #fff;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.red-9{
+    height: 40px;
+    width: 30px;
+    background-color: #ED1C24;
+    margin: 10px 10px 0 10px;
+    float: left;
+    border-radius: 50%;
+}
+.red-10{
+    height: 30px;
+    width: 30px;
+    background-color: #ED1C24;
+    margin: 0 10px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px 0 0 15px;
+}
+.red-11{
+    height: 40px;
+    width: 30px;
+    background-color: #ED1C24;
+    margin: 0 10px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px 0 0 20px;
+}
+.blue-4{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    height: 36%;
+    width: 25%;
+    background-color: #00A2E8;
+    border-radius: 50%;
+}

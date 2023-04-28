@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+}
+
+/*======== 1st assingment Pseudo class ======== */
+.pseudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    min-height: 80vh;
+}
+.pseudo button{
+    background-color: red;
+    padding: 20px 40px;
+    border: 20px solid black;
+    outline: none;
+    border-radius: 30px 50px 50px 70px;
+    font-size: 25px;
+}
+.pseudo button:hover,
+.pseudo button:focus,
+.pseudo button:active,
+.pseudo button:visited{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
+
+
+/* ======== 2nd assingment css comment ======== */
+
+/* Css color  */
+ h1{
+    color: red;
+    padding-top: 70px;
+}
+
+/* css background  */
+.socond-assingment{
+    background-image: url('background-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: aqua;
+    min-height: 60vh;
+}
+/* css border and margin */
+.css-border-margin{
+    height: 300px;
+    width: 200px;
+    border: 10px solid black;
+    margin: 20px 10%;
+}
+/* css padding  */
+.css-padding{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 10px solid red;
+    padding: 50px;
+}
+
+/* css height/width  */
+.height-width{
+    height: 200px;
+    width: 500px;
+    background-color: aquamarine;
+}
+
+/* box model  */
+.box-model {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;  
+}
+/* outline  */
+.outline{
+    padding: 20px 30px;
+    background-color: blue;
+    color: #fff;
+    outline: 10px solid red;
+    margin: 20px 30px;
+}
+
+/* text, font, icon, link  */
+a{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px black;
+    text-indent: 20px;
+}
+a i{
+    color: red;
+}
+
+/* table  */
+table,th,tr,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+/* display  */
+.display{
+    background-color: green;
+}
+
+/* Max width */
+.max-width{
+    max-width: 500px;
+    border: 5px solid red;
+}
+
+/* position */
+.position{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 10px black;
+    z-index: 2;
+    color: #fff;
+}
+
+/* z-index */
+.z-index{
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+/* overflow */
+.overflow{
+    height: 200px;
+    width: 200px;
+    border: 10px solid orangered;
+    overflow: hidden;
+}
+/* float-inline-block-align */
+.float-inline-block-align{
+    padding: 10px;
+    border: 10px solid tomato;
+    display: inline-block;
+}
+.float-inline-block-align img{
+    height: 100px;
+}
+.float-inline-block-align img:first-child{
+    float: left;
+}
+.float-inline-block-align img:last-child{
+overflow: hidden;
+}
+/* align  */
+.align{
+    border: 10px solid tomato;
+    margin: 0 auto;
+    width: 60%;
+}

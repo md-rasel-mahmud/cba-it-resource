@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assingment-12 : Internal css</title>
+
+    <style>
+        body{
+            background-color: #ADEFD1FF;
+            color: #00203FFF ;
+            margin: 0;
+            padding: 0;
+        }
+        /* Common Container margin padding  */
+        .container{
+            max-width: 85%;
+            margin: 0 auto;
+        }
+
+        /* Common flexbox css */
+        .flexbox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        /* ======================== Header area css ======================== */
+        header{
+            background-color: #fff;
+        }
+        nav{
+            padding: 10px 0;
+        }
+        header nav img{
+            height: 60px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: #00203FFF;
+            padding: 5px 20px;
+        }
+
+        /* contact css */
+        h2{
+            text-decoration: underline;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-color: #00203FFF;
+            padding: 40px 50px;
+            border-radius: 10px;
+        }
+        input{
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px 50px;
+            border: none;
+            color: #00203FFF;
+        }
+        .gender-select{
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+                        <!-- ================Header Area Sectioin================ -->
+
+    <!-- Navigation area -->
+    <header>
+        <nav class="container flexbox">
+            <img src="assets/logo.png" alt="logo">
+             
+            
+            <div class="menu">
+                <a href="../external-css/index.html">External css (Home)</a>
+                <a href="../inline-css/index.html">Inline css (Services)</a>
+                <a href="#">Internal css (Contact)</a>
+            </div> 
+        </nav>
+    </header>
+
+    <!-- Contact information area -->
+    <section style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h2>Contact information</h2>
+
+        <form action="#">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone Number">
+
+            <div class="gender-select">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+ 
+
+            <input type="submit" value="Sent Data">
+        </form>
+    </section>
+</body>
+</html>
